@@ -19,7 +19,7 @@ export class AuthenticationService {
     return localStorage.getItem(TOKEN_KEY);
   }
   apiURL() {
-    return 'http://responsi-2-ionic-api.test';
+    return 'https://api-auth.dalhaqq.xyz/';
   }
   logout() {
     localStorage.clear();

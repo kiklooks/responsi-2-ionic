@@ -18,7 +18,7 @@ export const routes: Routes = [
     path: 'catatan',
     loadChildren: () =>
       import('./catatan/catatan.module').then((m) => m.CatatanPageModule),
-    //canLoad: [AuthGuard],
+    canLoad: [AuthGuard],
   },
   {
     path: 'login',
